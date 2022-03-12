@@ -1,5 +1,7 @@
 package chapter03
 
+import scala.language.postfixOps
+
 object Test01_TestOperater {
   def main(args: Array[String]): Unit = {
     //算数运算符
@@ -19,5 +21,14 @@ object Test01_TestOperater {
     val s2 : String = new String("hello")
     println(s1 == s2)
     println(s1.eq(s2))  //判断地址值
+
+    def isNotEmpty(str : String):Boolean = {
+      return str  != null && !("".equals(str.trim))
+    }
+
+    println(isNotEmpty(null))
+
+    println(7.6 toInt)
+
   }
 }
