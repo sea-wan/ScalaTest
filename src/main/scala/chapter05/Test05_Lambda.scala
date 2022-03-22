@@ -31,5 +31,18 @@ object Test05_Lambda {
 
     //如果可以推断出，当前传入的println是一个函数体,而不是调用语句,可以直接省略下划线
     f (println)
+
+
+
+    //实际实例,定义一个“二元运算”函数,之操作1和2两个数,但是具体运算通过参数传入
+    def dualFunctionOneAndTwo(fun: (Int, Int)=>Int): Int={
+      fun(1,2)
+    }
+
+    val add = (a: Int, b:Int) => a+b
+    val minus = (a: Int, b:Int) => a-b
+
+    println(dualFunctionOneAndTwo(add))
+    println(dualFunctionOneAndTwo(minus))
   }
 }
