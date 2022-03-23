@@ -54,5 +54,14 @@ object Test09_ClosureAndCurrying {
     }
 
     def addByA4(a: Int): Int=>Int = a + _
+
+    println("==========================")
+
+    //柯里化           柯里化 一定是 闭包
+    def addCurrying(a: Int)(b: Int): Int = {
+      a + b
+    }
+    println(addCurrying(4)(6))
+
   }
 }
