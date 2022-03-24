@@ -35,7 +35,7 @@ object Test04_Simplify {
 //    }
 //    println(f4("hi"))
 
-    println("=============华丽的分割线============")
+    println("=============华丽的分割线============unit")
 
     //如果函数明确声明unit,那么即使函数体中使用return关键字也不起作用
     def f5(name: String): Unit ={
