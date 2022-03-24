@@ -24,12 +24,13 @@ object Test06_HighOrderFunction {
     println(f1(12))
     println(f2(15))
 
-    val f3: ()=> Int = fun    //调用上一个 fun
-    val f4 = fun _  //完成函数体
+    val f3: ()=> Int = fun    //调用上一个 fun  第15行
+    val f4 = fun _  //完整函数体
     println(f3)
     println(f4)
 
     //2.函数作为参数进行传递
+    println("函数作为参数进行传递")
     //定义一个二元计算函数
     def dualEval(op: (Int,Int)=>Int,a: Int, b: Int): Int={
       op(a,b)
@@ -45,6 +46,7 @@ object Test06_HighOrderFunction {
 
 
     //3.函数作为函数的返回值返回
+    println("函数作为函数的返回值返回")
     def f5(): Int => Unit= {
       def f6(a: Int)={
         println("f6调用" + a)
