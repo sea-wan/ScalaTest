@@ -2,7 +2,7 @@ package chapter05
 
 object Test08_Practice {
   def main(args: Array[String]): Unit = {
-    //练习1
+    //1
     def fun = (i:Int , s:String , c:Char)=> {
       if (i==0 && s == "" && c == '0') false else true
     }
@@ -12,7 +12,7 @@ object Test08_Practice {
 
     println("==================华丽的分割线=============")
 
-    //练习2
+    //2
     def func(i: Int): String =>(Char=>Boolean)={
       def f1(s: String): Char=>Boolean ={
         def f2(c :Char): Boolean ={
