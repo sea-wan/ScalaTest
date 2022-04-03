@@ -5,6 +5,20 @@ object Test07_Inherit {
     val stu1 = new Student7("ali", 18)
     val stu2 = new Student7("bo", 20, "std001")
 
+    stu1.printInfo()
+
+    val teacher = new Teacher("ali",19)
+    teacher.printInfo()
+
+    def personInfo(person: Person7)={
+      person.printInfo()
+    }
+
+    println("=================")
+
+    val person = new Person7
+    personInfo(stu1)
+    personInfo(teacher)
   }
 
 }
@@ -48,5 +62,7 @@ class Student7(name: String, age: Int) extends Person7 {
 }
 
 class Teacher(name: String, age: Int) extends Person7 {
-
+  override def printInfo(): Unit ={
+    println(s"Teacher")
+  }
 }
