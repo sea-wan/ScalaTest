@@ -11,8 +11,8 @@ object Test01_TestOperater {
     val result2 : Double = 10 / 3
     println(result2)
 
-    val result3 : Double = 10.0 / 3
-    println(result3.formatted("%.2f"))
+    val result3 : Double = 10.0001 / 3
+    println(result3.formatted("%.3f"))
 
     val result4 = 10 % 3
     println(result4)

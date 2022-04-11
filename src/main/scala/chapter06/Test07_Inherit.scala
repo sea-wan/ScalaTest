@@ -59,6 +59,8 @@ class Student7(name: String, age: Int) extends Person7 {
   override def printInfo(): Unit = {
     println(s"Student: $name $age $stdNo")
   }
+
+  
 }
 
 class Teacher(name: String, age: Int) extends Person7 {

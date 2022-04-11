@@ -25,7 +25,7 @@ object Test09_ClosureAndCurrying {
       addB
     }
 
-    def addByA(a: Int): Int=>Int = { //另一种写法  , 闭包 ： 通用性、适用性
+    def addByA(a: Int): Int=>Int = { //另一种写法  , 闭包 返回值依赖外部，具有 通用性、适用性
       def addB(b: Int): Int ={
         a + b
       }

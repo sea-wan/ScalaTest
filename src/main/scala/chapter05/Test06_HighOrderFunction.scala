@@ -26,8 +26,8 @@ object Test06_HighOrderFunction {
 
     val f3: ()=> Int = fun    //调用上一个 fun  第15行
     val f4 = fun _  //完整函数体
-    println(f3)
-    println(f4)
+    println(f3())
+    println(f4())
 
     //2.函数作为参数进行传递
     println("函数作为参数进行传递")

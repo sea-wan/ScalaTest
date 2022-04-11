@@ -26,10 +26,10 @@ class Student2 {
   var age: Int = _
 }
 
-//上面定义等价于,       属性,     推荐此方式
+//上面定义等价于,       属性,     推荐此方式    ，参数public
 class Student3(var name: String, var age: Int)
 
-//主构造器参数无修饰,    仅是形参,不是属性
+//主构造器参数无修饰,    仅是形参,不是属性  ,无修饰符 参数为private
 class Student4(name: String, age: Int){
   def printInfo(): Unit ={
     println(s"student4: name = ${name} , age = ${age}")

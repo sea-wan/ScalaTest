@@ -5,6 +5,7 @@ import scala.annotation.tailrec
 object Test10_Recursion {
   def main(args: Array[String]): Unit = {
     println(fact(5))
+    println(tailFact(5))
   }
 
 

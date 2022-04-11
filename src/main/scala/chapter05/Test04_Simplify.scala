@@ -9,7 +9,7 @@ object Test04_Simplify {
 
     println("=============华丽的分割线============")
 
-    //retrun可以省略,Scala会使用函数体最后一行代码作为返回值
+    //return可以省略,Scala会使用函数体最后一行代码作为返回值
     def f1(name: String): String={
        name
     }

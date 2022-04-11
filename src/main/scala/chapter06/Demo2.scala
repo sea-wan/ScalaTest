@@ -49,6 +49,3 @@ class Person3{
 
 }
 
-trait Array[+T,-B]{
-  def a(t:B): T =
-}

@@ -8,7 +8,7 @@ class Student(name: String, age: Int) {
 
 // 引入伴生对象
 object Student {
-  val school = "atgui"
+  val school = "gui"
 
   def main(args: Array[String]): Unit = {
     val al = new Student("al", 22)

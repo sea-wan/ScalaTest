@@ -4,7 +4,7 @@ object Test05_Lambda {
   def main(args: Array[String]): Unit = {
     val fun =(name: String) =>{ println(name)}  //匿名函数,lambda表达式
     fun("hello")
-
+    println("====分割线=====")
 
 
     //定义一个函数,以函数作为参数输入
@@ -13,8 +13,10 @@ object Test05_Lambda {
     }
 
     f(fun)
-    f ((name: String) =>{ println(name)})
+    println("=======分割线=======")
 
+    f ((name: String) =>{ println(name)})
+    println("====分割线====")
 
     //匿名函数简化原则
     //参数类型可以省略，会根据形参进行推导
