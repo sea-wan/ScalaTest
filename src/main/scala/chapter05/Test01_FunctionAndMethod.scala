@@ -12,7 +12,7 @@ object Test01_FunctionAndMethod {
     Test01_FunctionAndMethod.sayHi("bob") //调用对象的方法
   }
 
-  def sayHi(name:String)={ //方法
+  def sayHi(name: String)={ //方法
     println("hello,"+name)
   }
 }
