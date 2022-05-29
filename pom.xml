@@ -11,6 +11,17 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+
     </properties>
+
+    <!-- https://mvnrepository.com/artifact/org.scala-lang.modules/scala-parallel-collections -->
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-parallel-collections_2.13</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
