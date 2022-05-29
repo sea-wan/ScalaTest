@@ -34,5 +34,8 @@ object Demo8 {
 
     val list8 = list5 ++ list6
     println(list8)
+
+    //验证list是否为空
+    println(list5.isEmpty)
   }
 }
