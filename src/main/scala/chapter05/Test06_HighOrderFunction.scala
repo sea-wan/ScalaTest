@@ -24,6 +24,8 @@ object Test06_HighOrderFunction {
     println(f1(12))
     println(f2(15))
 
+    println("===========================")
+
     val f3: ()=> Int = fun    //调用上一个 fun  第15行
     val f4 = fun _  //完整函数体
     println(f3())
