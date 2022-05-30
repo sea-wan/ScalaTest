@@ -16,6 +16,7 @@ object Test07_Inherit {
 
     println("=================")
 
+    //java方法是动态绑定，属性不是动态绑定。 Scala方法是静态绑定，属性是动态绑定。
     val person = new Person7
     personInfo(stu1)
     personInfo(teacher)
