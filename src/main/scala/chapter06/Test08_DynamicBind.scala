@@ -16,6 +16,7 @@ class Person8{
 }
 
 class Student8 extends Person8{
+  //属性和方法重写
   override val name: String = "student"
   override def hello(): Unit = {
     println("hello student")
