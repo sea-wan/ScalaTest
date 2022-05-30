@@ -8,7 +8,7 @@ object  Test09_AbstractClass{
   }
 }
 
-//定义抽象类
+//定义抽象类,抽象类不能直接实例化,只能被继承
 abstract class Person9{
   // 非抽象属性
   val name: String = "person"
